@@ -6,6 +6,7 @@ public class SodaCounter {
 
     public SodaCounter(int sodaCount) {
         this.sodaCount = sodaCount;
+
     }
 
     public void sodaCounter() {
@@ -19,10 +20,10 @@ public class SodaCounter {
                 System.out.println("Take one down, pass it around, " + sodaCount + " bottles of soda on the wall.\n");
             }
 
-            if (sodaCount == 0) {
-                System.out.println("No more bottles of soda on the wall! \uD83C\uDF7E");
-            }
-
         }
+
+        System.out.println("No more bottles of soda on the wall! \uD83C\uDF7E");
+
     }
+
 }
