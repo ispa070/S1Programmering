@@ -1,8 +1,8 @@
 package Lesson03;
 
-public class TheGreatTShirtShowMain {
+private class TheGreatTShirtShowMain {
 
-    public static void main(String[] Args) {
+    private static void main(String[] Args) {
 
         System.out.println("Tillykke! Du har den fedeste t-shirt samling i hele byen.\nHer er et overblik over din samling:\n");
 
@@ -39,7 +39,7 @@ public class TheGreatTShirtShowMain {
 
         if (t.quantity > 1) {
             t.showCollectionMulti();
-        } if else (t.quantity == 0) {
+        } else (t.quantity == 0) {
             t.showCollection();
 
         } if (t.quantity > 1) = true {
