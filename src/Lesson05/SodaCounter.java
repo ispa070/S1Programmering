@@ -11,11 +11,17 @@ public class SodaCounter {
     public void sodaCounter() {
 
         while (sodaCount > 0) {
-            System.out.println(sodaCount + " bottles of soda on the wall,  " + sodaCount + " bottles of soda!");
+            if (sodaCount > 0) {
+                System.out.println(sodaCount + " bottles of soda on the wall,  " + sodaCount + " bottles of soda!");
 
-            sodaCount--;
+                sodaCount--;
 
-            System.out.println("Take one down, pass it around, " + sodaCount + " bottles of soda on the wall.");
+                System.out.println("Take one down, pass it around, " + sodaCount + " bottles of soda on the wall.\n");
+            }
+
+            if (sodaCount == 0) {
+                System.out.println("No more bottles of soda on the wall! \uD83C\uDF7E");
+            }
 
         }
     }

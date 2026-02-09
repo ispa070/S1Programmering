@@ -1,7 +1,7 @@
 package Lesson05;
 import java.util.Scanner;
 
-public class BeerSongTest {
+public class SodaSongTest {
 
     public static void main(String[] args) {
 
